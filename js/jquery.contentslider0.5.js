@@ -11,7 +11,7 @@ $.fn.contentSlider = function( options ) {
         paginator: true,
         controls: true,
         autoplay: true,
-        pause:  3000000
+        pause:  5000
     };
 
     $.extend(settings, options);
