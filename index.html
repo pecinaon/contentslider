@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JQuery - Content Slider</title>
+
+        <link href="css/contentslider.css" rel="stylesheet">
+        <style type="text/css">
+            body {
+                font-family: Arial, Tahoma;
+                font-size: 12px;
+                background: url("images/bg.png") repeat scroll 0 0 #474747;
+                color: white;
+            }
+            .wrapper {
+                width: 100%;
+                max-width: 940px;
+                margin: 0 auto;
+            }
+            a {outline: 0;}
+
+        </style>
+
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.contentslider0.5.js"></script>
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                $('.contentSlider').contentSlider({
+                    speed: 200,
+                    paginator: true,
+                    controls: true,
+                    autoplay: true,
+                    pause:  6000
+                });
+
+                $('.contentSlider2').contentSlider({
+                   autoplay: false,
+                   paginator: false
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Main slider Example</h1>
+            <div class="contentSlider">
+                <div class="items">
+                    <div>
+                        <img src="slides/slide1.jpg" alt="Slide 1" />
+                        <div class="ei-title">
+                            <h2>Creative</h2>
+                            <h3>Duet</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="slides/slide2.jpg" alt="Slide 2" />
+
+                        <div class="ei-title">
+                            <h2>Friendly</h2>
+                            <h3>Devil</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="slides/slide3.jpg" alt="Slide 3" />
+                        <div class="ei-title">
+                            <h2>Fuckly</h2>
+                            <h3>Devil</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>​
+            <h2>Content slider Example</h2>
+            <div class="contentSlider2">
+                <div class="items">
+                    <div class="item">
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisi nulla, iaculis vel venenatis sed, pulvinar quis purus. Suspendisse mollis venenatis turpis sit amet rutrum. Sed eget turpis nec libero feugiat faucibus. Donec porta semper magna sed ultricies. Aliquam faucibus velit nec eros tincidunt in tincidunt velit convallis. Nulla augue lacus, volutpat cursus viverra vel, varius quis ante. Duis id mauris massa. Nam pretium rutrum nulla, eu accumsan lacus convallis et. Suspendisse potenti
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisi nulla, iaculis vel venenatis sed, pulvinar quis purus. Suspendisse mollis venenatis turpis sit amet rutrum. Sed eget turpis nec libero feugiat faucibus. Donec porta semper magna sed ultricies. Aliquam faucibus velit nec eros tincidunt in tincidunt velit convallis. Nulla augue lacus, volutpat cursus viverra vel, varius quis ante. Duis id mauris massa. Nam pretium rutrum nulla, eu accumsan lacus convallis et. Suspendisse potenti
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisi nulla, iaculis vel venenatis sed, pulvinar quis purus. Suspendisse mollis venenatis turpis sit amet rutrum. Sed eget turpis nec libero feugiat faucibus. Donec porta semper magna sed ultricies. Aliquam faucibus velit nec eros tincidunt in tincidunt velit convallis. Nulla augue lacus, volutpat cursus viverra vel, varius quis ante. Duis id mauris massa. Nam pretium rutrum nulla, eu accumsan lacus convallis et. Suspendisse potenti
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks.
+                        </div>
+                        <div>
+                            here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks.
+                        </div>
+                        <div>
+                            here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
